@@ -25,4 +25,12 @@ body,html {
 
 #app {
   padding: 20px 0px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#app > div {
+  zoom: 2;
 }
